@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc ./src/index.ts --outDir ./dist",
-    "exec": "tsc ./src/index.ts --outDir ./dist && node ./dist/index.js"
+    "build": "tsc",
+    "exec": "tsc && node ./dist/index.js"
   },
   "type": "module",
   "keywords": [],
