@@ -4,10 +4,9 @@
     "importHelpers": true,
     "module": "commonjs",
     "outDir": "dist",
-    "sourceMap": true,
+    "sourceMap": false,
     "strict": true,
-    "target": "ES6"
+    "target": "ES2022"
   },
-  "exclude": ["node_modules", "**/*.spec.ts"],
   "include": ["src/**/*"]
 }

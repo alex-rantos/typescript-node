@@ -24,6 +24,22 @@
         "revealProblems": "onProblem",
         "close": true
       }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest debug current file",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest",
+      "args": [
+        "${fileBasename}",
+        "-c",
+        "./jest.config.ts",
+        "--verbose",
+        "-i",
+        "--no-cache"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
     }
   ]
 }
